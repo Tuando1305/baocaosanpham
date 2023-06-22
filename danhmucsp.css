@@ -1,0 +1,30 @@
+.DM{
+    wi
+}
+ 
+.logo ul li{
+    position: relative;
+    list-style: none;
+}
+.logo ul li a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.dmmenu{
+    background-color: white;
+    width: 500px;
+    height: auto;
+    left: 0;
+    top: 100%;
+    display: none;
+    border: 1px solid black;
+    border-style:dotted ;
+    border-color: red;
+}
+.dmmenu ul{
+    display: flex;
+    flex-direction: column;
+}
+.logo ul li:hover .dmmenu{
+    display: block;
+}
